@@ -1,4 +1,0 @@
-// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.1-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@v0.0.3-esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-real@v0.1.1-esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-imag@v0.1.1-esm/index.mjs";function r(t,r,i){var o=s(t)+s(r)+s(i),d=n(t)+n(r)+n(i);return new e(o,d)}function i(t,e,s,n,r,i,o,d,m){return o[m]=t+s+r,o[m+d]=e+n+i,o}function o(t,e,s,n,r,i,o,d,m,l,p,f){return l[f]=t[s]+n[i]+o[m],l[f+p]=t[s+e]+n[i+r]+o[m+d],l}t(r,"assign",i),t(r,"strided",o);export{i as assign,r as default,o as strided};
-//# sourceMappingURL=index.mjs.map
